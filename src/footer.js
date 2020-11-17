@@ -22,14 +22,22 @@ const useStyles = makeStyles((theme) => ({
 
 function Copyright() {
   return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
+  	<div>
+	  	<Typography variant="body2" color="textSecondary" align="center">
+	      {' Desenvolved By Willian Xz '}
+	      <Link color="inherit" href="https://github.com/willianxz/nextjs-with-materialize-ui">
+	        See Github
+	      </Link>
+	    </Typography>
+	    <Typography variant="body2" color="textSecondary" align="center">
+	      {'Copyright © '}
+	      <Link color="inherit" href="https://material-ui.com/">
+	        Your Website
+	      </Link>{' '}
+	      {new Date().getFullYear()}
+	      {'.'}
+	    </Typography>
+    </div>
   );
 }
 
@@ -78,6 +86,7 @@ function Footer(){
 			            </Grid>
 			          ))}
 			        </Grid>
+
 			        <Box mt={5}>
 			          <Copyright />
 			        </Box>

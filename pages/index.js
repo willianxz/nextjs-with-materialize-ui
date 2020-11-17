@@ -95,11 +95,14 @@ export default function Home() {
       {/* Hero unit */}
       <Container maxWidth="sm" component="main" className={classes.heroContent}>
 
+      	<Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+          NextJs With Materialize UI
+        </Typography>
 	       
 		<img src="/materializeui.png" alt="Materialize UI Image" className={classes.imageStyle}/>	        
         
 
-        <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+        <Typography component="h3" variant="h2" align="center" color="textPrimary" gutterBottom>
           BUTTONS
         </Typography>
 
@@ -122,7 +125,7 @@ export default function Home() {
 	    <br/>
 
 
-      	<Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+      	<Typography component="h3" variant="h2" align="center" color="textPrimary" gutterBottom>
           GRID XS
         </Typography>
 
@@ -155,7 +158,7 @@ export default function Home() {
 	     <br/>
 
 
-        <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+        <Typography component="h3" variant="h2" align="center" color="textPrimary" gutterBottom>
           Pricing
         </Typography>
         <Typography variant="h5" align="center" color="textSecondary" component="p">

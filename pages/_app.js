@@ -5,6 +5,7 @@ import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import theme from '../src/theme';
 
+
 export default function MyApp(props) {
   const { Component, pageProps } = props;
 
@@ -19,8 +20,9 @@ export default function MyApp(props) {
   return (
     <React.Fragment>
       <Head>
-        <title>My page</title>
+        <title>NextJs With Materialize UI</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
+        <link rel="shortcut icon" href="/materializeuiicon.png"/>
       </Head>
       <ThemeProvider theme={theme}>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
