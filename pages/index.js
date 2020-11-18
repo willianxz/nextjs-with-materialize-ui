@@ -25,6 +25,11 @@ const useStyles = makeStyles((theme) => ({
       listStyle: 'none',
     },
   },
+  root: {
+    '& > *': {
+      margin: theme.spacing(1),
+    },
+  },
   link: {
     margin: theme.spacing(1, 1.5),
   },
